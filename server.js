@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const PORT  = process.env.PORT  || 3000
+const PORT  = process.env.PORT  || 8080
 const TOKEN = process.env.PROP_SERVER_TOKEN  // optional — set in Railway env vars
 
 const MLB_GROUP_ID = 84240
